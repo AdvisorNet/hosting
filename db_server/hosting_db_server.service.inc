@@ -18,6 +18,8 @@ class hostingService_db_mysql extends hostingService_db {
   public $type = 'mysql';
   public $name = 'MySQL';
   public $has_port = TRUE;
+  public $db_passwd;
+  public $db_user;
 
   function default_port() {
     $ctrlf = '/data/conf/' . $this->db_user . '_use_proxysql.txt';

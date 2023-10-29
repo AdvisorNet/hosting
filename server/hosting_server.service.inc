@@ -23,6 +23,8 @@ class hostingService {
   // Whether or not the service is available.
   public $available = 0;
 
+  public $port;
+
   protected $has_restart_cmd = FALSE;
   protected $has_port = FALSE;
 

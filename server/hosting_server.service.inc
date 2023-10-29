@@ -25,6 +25,8 @@ class hostingService {
 
   public $port;
 
+  public $restart_cmd;
+
   protected $has_restart_cmd = FALSE;
   protected $has_port = FALSE;
 
